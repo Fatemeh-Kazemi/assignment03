@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #191F3A;
+    overflow: hidden;
+}
+.top-navbar{
+    padding: 0 20px;
+    background-color: #0C1023;
+    border-bottom: 1px solid gray;
+}
+
+/*********** change vertical align top-navber element ***********/
+.input-group, .tribar-icon{
+    margin-top: 20px;
+}
+.logo-image{
+    margin-top: 10px;
+}
+
+/********** navbar style **********/
+input.form-control {
+    text-align: right;
+    background-color: #d1d1d1 !important;
+    outline: none !important;
+    border: none !important;
+}
+.navbar-top .tribar-icon{
+    font-size: 26px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #d1d1d1;
+}
+.navbar-top .search-box{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(190, 190, 190);
+    outline: none;
+}
+.profile-box{
+    cursor: pointer;
+    color: #d1d1d1;
+}
+.profile .profile-items{
+    display: none;
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: right;
+    padding: 5px 20px;
+}
+.profile .profile-items li{
+    list-style: none;
+}
+.profile .profile-items li a{
+    text-decoration: none;
+    color: #0C1023;
+}
+.profile .profile-items li i{
+    padding: 0 5px;
+}
+.profile .profile-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*********** right menu style ************/
+.right-section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 232px;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid gray;
+}
+.right-menu{
+    width: 100%;
+    height: 100vh;
+    background-color: #0C1023;
+    color: aliceblue;
+}
+.right-menu .logo-section{
+    text-align: center;
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+.right-menu .items-section ul{
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: right;
+}
+.right-menu .items-section li{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-bottom: 1px solid #191F3A;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.right-menu .items-section li:hover{
+    background-color: #191F3A;
+    color: #fff;
+}
+.right-menu .items-section li i{
+    padding: 0 5px;
+}
+li.disabled {
+    pointer-events: none; 
+    opacity:0.6;         
+}
+
+/***************/
+.show-table-and-show-form{
+    margin-right: 200px;
+}
+
+/*********/
+.dashboard-section{
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+    margin-right: 50px;
+}
+.dashboard-section .box{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 15px;
+    color: #0C1023
+}
+.dashboard-section .box a{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: #0C1023;
+    text-decoration: none;
+}
+.dashboard-section .box a:hover{
+    opacity: 1;
+}
+.dashboard-section .box1{
+    background-color: #c4e8df;
+}
+.dashboard-section .box2{
+    background-color: #ffd8cc;
+}
+.dashboard-section .box3{
+    background-color: #fceea1;
+}
+.dashboard-section .box4{
+    background-color: #cbfcc7;
+}
+
+/********/
+.table-section{
+    display: none;
+    padding: 40px 60px;
+    margin: 40px 60px;
+    color: aliceblue;
+    background-color: #191F3A;
+    border: 1px solid #b1b1b1;
+    border-radius: 20px;
+    box-shadow: 5px 8px 6px #b1b1b1;
+    direction: rtl;
+}
+.table-section tr th{
+    color: aliceblue;
+}
+.table-section tr td{
+    color: #b1b1b1;
+}
+
+/********/
+.form-section{
+    display: none;
+    padding: 40px 60px;
+    margin: 40px 60px;
+    color: aliceblue;
+    background-color: #191F3A;
+    border: 1px solid #b1b1b1;
+    border-radius: 20px;
+    box-shadow: 5px 8px 6px #b1b1b1;
+    direction: rtl;
+}
+.form-section div{
+    margin: 5px 0;
+}
+.form-section div label{
+    width: 8vw;
+    text-align: left;
+    color: #b1b1b1;
+}
+.form-section div input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border-color: 1px solid #b1b1b1;
+}

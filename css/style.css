@@ -1,0 +1,178 @@
+
+/************ change difault style ***************/
+ul.navbar-nav.me-auto.mb-2.mb-lg-0{
+    width: 100%;
+}
+.carousel-item img{
+    cursor: pointer;
+}
+body{
+    padding: 0 20px;
+}
+
+/********/
+section{
+    margin: 30px 0;
+}
+
+.diamond-image{
+    padding: 5px;
+    margin: 10px 5px;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+
+
+/*********** blink style ************/
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+
+/******* typing title *******/
+.typewriter {
+    overflow: hidden; 
+    border-left: .15em solid fc9624; 
+    white-space: nowrap; 
+    margin: 15px auto; 
+    animation: 
+      typing 10s steps(60, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+/******* The typing effect *******/
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /********** The typewriter cursor effect ********/
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #efc900; }
+  }
+
+
+
+/********** banner section style **********/
+.banner h3{
+    text-align: center;
+}
+.banner .content-0, .banner .content-1{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner .content-0{
+    background-image: url(../images/b11.jpg);
+}
+.banner .content-1{
+    background-image: url(../images/b1.jpg);
+}
+.banner .content-2{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/************ product section style *************/
+.product-section h3{
+    background-color: #efc900;
+    padding: 10px;
+}
+.product{
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    text-align: center;
+}
+.product:hover{
+    border: 2px solid gainsboro;
+    box-shadow: 5px 8px 6px #b1b1b1;
+}
+.product .stars i.star-yellow{
+    color: #efc900;
+}
+.product img{
+    width: 100%;
+}
+
+
+/************ footer style ***********/
+.footer-section{
+    color: #fff;
+    padding: 50px 20px;
+    background-color: #212529;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li.list-group-item{
+    background-color: transparent !important;
+}
+li.list-group-item a{
+    transition: all 0.5s;
+}
+li.list-group-item a:hover{
+    color: #fff;
+    opacity: 0.7;
+}
+#social-link li.list-group-item a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#social-link li.list-group-item a:hover{
+    color: #000;
+}
+#social-link-telegram{
+    background: #1682fb;
+}
+#social-link-instagram{
+    background: linear-gradient(45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);
+}
+#social-link-whatsapp{
+    background: #25d366;    
+}
+
+.enamad-picture img{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s;
+    margin: 5px;
+}
+.enamad-picture img:hover{
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+/********** shemsh style *********/
+
+.shemsh-product{
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    text-align: center;
+}
+
+.shemsh-product img{
+    width: 100%;
+}
